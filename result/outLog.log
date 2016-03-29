@@ -1,0 +1,47 @@
+2016-02-03 15:27:42,770 - [run.py:7] - INFO - 运行主程序
+2016-02-03 15:27:42,897 - [run.py:14] - INFO - 加入用例：<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_1.WeiFuHua testMethod=test_a>]>]>
+2016-02-03 15:27:42,897 - [run.py:14] - INFO - 加入用例：<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_2.WeiFuHua testMethod=test_b>]>]>
+2016-02-03 15:27:42,897 - [run.py:14] - INFO - 加入用例：<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_accountError.WeiFuHua testMethod=test_a>]>]>
+2016-02-03 15:27:42,897 - [run.py:14] - INFO - 加入用例：<unittest.suite.TestSuite tests=[<unittest.suite.TestSuite tests=[<test_loginSuccess.WeiFuHua testMethod=test_a>]>]>
+2016-02-03 15:27:42,898 - [run.py:22] - INFO - 开始运行所有case
+2016-02-03 15:27:42,901 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"deviceName": "nox", "unicodeKeyboard": "True", "resetKeyboard": "True", "platformVersion": "4.4.4", "newCommandTimeout": "15", "noSign": "True", "appPackage": "com.longtu.weifuhua", "platformName": "Android", "appActivity": "com.longtu.weifuhua.ui.personcenter.activity.PersonalLoadingActivity"}}
+2016-02-03 15:27:48,153 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:27:48,154 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/d5c68274-2580-4f11-b8b0-367436af3baf/timeouts/implicit_wait {"sessionId": "d5c68274-2580-4f11-b8b0-367436af3baf", "ms": 6000.0}
+2016-02-03 15:27:48,167 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:27:48,167 - [test_1.py:17] - INFO - case1
+2016-02-03 15:27:48,167 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/d5c68274-2580-4f11-b8b0-367436af3baf/element {"using": "xpath", "sessionId": "d5c68274-2580-4f11-b8b0-367436af3baf", "value": "//android.widget.Button[@text='\u6211\u7684']"}
+2016-02-03 15:27:50,140 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:27:50,141 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/d5c68274-2580-4f11-b8b0-367436af3baf/element/1/click {"sessionId": "d5c68274-2580-4f11-b8b0-367436af3baf", "id": "1"}
+2016-02-03 15:27:50,351 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:27:55,349 - [remote_connection.py:409] - DEBUG - DELETE http://127.0.0.1:4723/wd/hub/session/d5c68274-2580-4f11-b8b0-367436af3baf {"sessionId": "d5c68274-2580-4f11-b8b0-367436af3baf"}
+2016-02-03 15:27:56,553 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:27:56,555 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4725/wd/hub/session {"desiredCapabilities": {"deviceName": "nox", "unicodeKeyboard": "True", "resetKeyboard": "True", "platformVersion": "4.4.4", "newCommandTimeout": "15", "noSign": "True", "appPackage": "com.longtu.weifuhua", "platformName": "Android", "appActivity": "com.longtu.weifuhua.ui.personcenter.activity.PersonalLoadingActivity"}}
+2016-02-03 15:27:57,578 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"deviceName": "nox", "unicodeKeyboard": "True", "resetKeyboard": "True", "platformVersion": "4.4.4", "newCommandTimeout": "15", "noSign": "True", "appPackage": "com.longtu.weifuhua", "platformName": "Android", "appActivity": "com.longtu.weifuhua.ui.personcenter.activity.PersonalLoadingActivity"}}
+2016-02-03 15:28:02,663 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:02,663 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0af16bab-0b80-4de8-9cf3-0041067f1b34/timeouts/implicit_wait {"sessionId": "0af16bab-0b80-4de8-9cf3-0041067f1b34", "ms": 6000.0}
+2016-02-03 15:28:02,665 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:02,667 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0af16bab-0b80-4de8-9cf3-0041067f1b34/element {"using": "xpath", "sessionId": "0af16bab-0b80-4de8-9cf3-0041067f1b34", "value": "//android.widget.Button[@text='\u6211\u7684']"}
+2016-02-03 15:28:04,582 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:04,582 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0af16bab-0b80-4de8-9cf3-0041067f1b34/element/1/click {"sessionId": "0af16bab-0b80-4de8-9cf3-0041067f1b34", "id": "1"}
+2016-02-03 15:28:04,808 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:04,809 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0af16bab-0b80-4de8-9cf3-0041067f1b34/element {"using": "xpath", "sessionId": "0af16bab-0b80-4de8-9cf3-0041067f1b34", "value": "//android.widget.Button[@text='18674385981']"}
+2016-02-03 15:28:11,253 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:11,255 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/0af16bab-0b80-4de8-9cf3-0041067f1b34/element {"using": "xpath", "sessionId": "0af16bab-0b80-4de8-9cf3-0041067f1b34", "value": "//android.widget.Button[@text='\u70b9\u51fb\u767b\u9646']"}
+2016-02-03 15:28:17,538 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:17,565 - [remote_connection.py:409] - DEBUG - DELETE http://127.0.0.1:4723/wd/hub/session/0af16bab-0b80-4de8-9cf3-0041067f1b34 {"sessionId": "0af16bab-0b80-4de8-9cf3-0041067f1b34"}
+2016-02-03 15:28:18,724 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:18,726 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"deviceName": "nox", "unicodeKeyboard": "True", "resetKeyboard": "True", "platformVersion": "4.4.4", "newCommandTimeout": "15", "noSign": "True", "appPackage": "com.longtu.weifuhua", "platformName": "Android", "appActivity": "com.longtu.weifuhua.ui.personcenter.activity.PersonalLoadingActivity"}}
+2016-02-03 15:28:23,756 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:23,757 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/26e08b40-daf2-41e8-a112-28ccc46f564b/timeouts/implicit_wait {"sessionId": "26e08b40-daf2-41e8-a112-28ccc46f564b", "ms": 6000.0}
+2016-02-03 15:28:23,759 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:23,759 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/26e08b40-daf2-41e8-a112-28ccc46f564b/element {"using": "xpath", "sessionId": "26e08b40-daf2-41e8-a112-28ccc46f564b", "value": "//android.widget.Button[@text='\u6211\u7684']"}
+2016-02-03 15:28:25,348 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:25,348 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/26e08b40-daf2-41e8-a112-28ccc46f564b/element/1/click {"sessionId": "26e08b40-daf2-41e8-a112-28ccc46f564b", "id": "1"}
+2016-02-03 15:28:26,474 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:26,474 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/26e08b40-daf2-41e8-a112-28ccc46f564b/element {"using": "xpath", "sessionId": "26e08b40-daf2-41e8-a112-28ccc46f564b", "value": "//android.widget.Button[@text='18674385981']"}
+2016-02-03 15:28:33,033 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:33,035 - [remote_connection.py:409] - DEBUG - POST http://127.0.0.1:4723/wd/hub/session/26e08b40-daf2-41e8-a112-28ccc46f564b/element {"using": "xpath", "sessionId": "26e08b40-daf2-41e8-a112-28ccc46f564b", "value": "//android.widget.Button[@text='\u70b9\u51fb\u767b\u9646']"}
+2016-02-03 15:28:39,325 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:39,336 - [remote_connection.py:409] - DEBUG - DELETE http://127.0.0.1:4723/wd/hub/session/26e08b40-daf2-41e8-a112-28ccc46f564b {"sessionId": "26e08b40-daf2-41e8-a112-28ccc46f564b"}
+2016-02-03 15:28:40,482 - [remote_connection.py:502] - DEBUG - Finished Request
+2016-02-03 15:28:40,482 - [run.py:24] - INFO - 关闭文件
